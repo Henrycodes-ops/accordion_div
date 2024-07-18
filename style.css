@@ -1,0 +1,188 @@
+@font-face {
+  font-family: myFontAi;
+  src: url(./fonts/static/WorkSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(./fonts/static/WorkSans-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: myFont;
+}
+
+body {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.container {
+  filter: drop-shadow(3px 3px 30px rgb(179, 177, 177));
+  background-color: hsl(275, 100%, 97%);
+  height: 45em;
+}
+
+.container img {
+  width: 50em;
+  position: relative;
+}
+
+.div {
+  background-color: #fff;
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 20%;
+  margin-top: -10%;
+  box-shadow: 3px 3px 10px hsl(300, 3%, 37%);
+  height: 35em;
+  width: 80%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.div img {
+  width: 7%;
+}
+
+.content-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 3em;
+  margin-left: 2em;
+}
+
+.content-1 h2 {
+  margin-left: 0.5em;
+  font-size: 3em;
+  font-family: myFontAi;
+  color: hsl(292, 42%, 14%);
+}
+
+.content-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.content-2 img {
+  width: 2em;
+  margin-right: 2em;
+}
+
+.content-2 p {
+  font-size: 14px;
+  font-weight: 600;
+  color: hsl(292, 42%, 14%);
+}
+
+.content-3 p {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  color: hsl(292, 16%, 49%);
+}
+
+.content4 {
+  color: hsl(292, 42%, 14%);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.content1of4 {
+  color: hsl(292, 42%, 14%);
+  margin-left: 2em;
+  margin-right: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+.content1of4 a {
+  text-decoration: none;
+}
+
+.content1of4 img {
+  width: 1.8em;
+}
+
+.content2of4 {
+  margin-left: 2em;
+  margin-right: 2em;
+  display: flex;
+  justify-content: space-between;
+  color: hsl(292, 42%, 14%);
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 1em;
+  align-items: center;
+
+}
+
+.content2of4 a{
+  text-decoration: none;
+}
+
+.content2of4 img {
+  width: 1.8em;
+}
+
+.content3of4 {
+  margin-left: 2em;
+  margin-right: 2em;
+  display: flex;
+  justify-content: space-between;
+  color: hsl(292, 42%, 14%);
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 1em;
+  align-items: center;
+
+}
+
+.content3of4 a{
+  text-decoration: none;
+  
+}
+
+.content3of4 img {
+  width: 1.8em;
+}
+
+hr {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  opacity: 10%;
+  background-color: hsl(292, 16%, 49%);
+}
+
+.content1of4 > a:hover {
+  color: hsl(277, 62%, 44%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.content2of4 > a:hover {
+  color: hsl(277, 62%, 44%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.content3of4 > a:hover {
+  color: hsl(277, 62%, 44%);
+  cursor: pointer;
+  /* cursor: ; */
+  transition: all 0.3s ease;
+}
